@@ -1,0 +1,69 @@
+/* common styling */
+.nav-custom{
+  margin:0;
+  padding:0;
+  overflow-x: hidden;
+  font-size:1.2rem;
+  background-color:#082032;
+  
+  
+  
+  
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+#heading{
+  background-color: #2C394B;
+  
+  color:white;
+  overflow-x: hidden;
+  height:18rem;
+}
+.custom-text{
+  font-size: 1.2rem;
+}
+.dragon{
+  color:yellow;
+  font-size:3.5rem;
+}
+#image{
+  width:12rem;
+ border-radius: 60%;
+ transition: transform 10s ease-in-out;
+
+  
+}
+#image:hover{
+  transform: scale(2);
+}
+.color{
+ background-color:#ffd000;
+  
+}
+#team-name{
+  background-image: linear-gradient(orange,tomato);
+}
+#research{
+  overflow-x: hidden;
+}
+.image-1{
+  width:100%;
+}
+.footer{
+  background-color: black;
+  color:white;
+  height:10rem;
+}
+#team-name-footer{
+  color:orange;
+}
+.color-1{
+  background-color:#00c057;
+}
+.custom-card{
+  transition: transform 1s linear 0.2s;
+}
+.custom-card:hover{
+  transform: translateY(-3rem)
+}
