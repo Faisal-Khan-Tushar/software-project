@@ -27,15 +27,9 @@ body{
   color:yellow;
   font-size:3.5rem;
 }
-#image{
-  width:12rem;
- border-radius: 60%;
- transition: transform 10s ease-in-out;
 
-  
-}
-#image:hover{
-  transform: scale(2);
+.image-1{
+  font-size:30px;
 }
 .color{
  background-color:#ffd000;
@@ -66,4 +60,23 @@ body{
 }
 .custom-card:hover{
   transform: translateY(-3rem)
+}
+#member{
+  border-radius:50%;
+  width:50%;
+  height:50%;
+}
+#first-text{
+  font-size:1.5rem;
+}
+.client-image{
+  width:9.313rem;
+  height:9.313rem;
+
+}
+.user-3{
+  border-radius:50%;
+}
+#mahdi{
+  padding-left:10px;
 }
